@@ -26,4 +26,3 @@ class Universidad:
     def __str__(self):
         return "Universidad: %s, Número de profesores: %d, Número de alumnos: %d\n" \
             % (self.nombre, self.profesores, self.alumnos)
-            
